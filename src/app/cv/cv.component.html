@@ -1,1 +1,59 @@
-<p>cv works!</p>
+<h2>Lebenslauf</h2>
+
+<div>
+    <div>
+        <h3>Persönliche Daten</h3>
+        <div *ngFor="let key of (cv.Persoenliche_Daten | keyvalue)">
+            <strong>{{ key.key }}:</strong> {{ key.value }}
+        </div>
+    </div>
+
+    <div>
+        <h3>Fähigkeiten</h3>
+        <div *ngFor="let skill of cv.Faehigkeiten">
+            <strong>{{ skill }}</strong>
+        </div>
+    </div>
+
+    <div>
+        <h3>Jobs</h3>
+        <div *ngFor="let job of cv.Berufe">
+            <strong>{{job.Startdatum}} - {{job.Enddatum}}</strong>
+            <p>{{job.Titel}}</p>
+            <p>{{job.Unternehmen}}</p>
+        </div>
+    </div>
+
+    <div>
+        <h3>Weiterbildung</h3>
+        <div *ngFor="let course of cv.Weiterbildung">
+            <strong>{{course.Kurs}}</strong>
+            <p *ngIf="course.Datum">{{course.Datum}}</p>
+            <p *ngIf="course.Startdatum">{{course.Startdatum}} - {{course.Enddatum}}</p>
+            <p>{{course.Einrichtung}}</p>
+        </div>
+    </div>
+
+    <div>
+        <h3>Studium</h3>
+        <div *ngFor="let study of cv.Studium">
+            <strong>{{study.Startdatum}} - {{study.Enddatum}}: {{study.Abschluss}}</strong>
+            <p>{{study.Einrichtung}}</p>
+
+        </div>
+    </div>
+
+    <div>
+        <h3>Sprachen</h3>
+        <div *ngFor="let key of (cv.Sprachen | keyvalue)">
+            <strong>{{ key.key }}:</strong> {{ key.value }}
+        </div>
+    </div>
+
+    <div>
+        <h3>Schulbildung</h3>
+        <div>
+            <p>{{cv.Schulbildung.Startdatum}} - {{cv.Schulbildung.Enddatum}}: {{cv.Schulbildung.Schule}}</p>
+        </div>
+    </div>
+</div>
