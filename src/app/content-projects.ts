@@ -119,7 +119,7 @@ export const projects =
         ]
     },
     {
-        name: "",
+        name: "Hard Hit",
         category: "Vanilla JS",
         description: "Die Website für mein Metal-Fanzine.",
         photos: [
