@@ -22,13 +22,13 @@ export const projects =
         description: "Ein Browser-Spiel das mithilfe des Canvas Elements erstellt wurde. In meiner Version gibt es ein Zoom-in und Zoom-out item.",
         photos: [
             {
-                path: "example"
+                path: "images/snake2/snake0.png"
             },
             {
-                path: "example"
+                path: "images/snake2/snake1.png"
             },
             {
-                path: "example"
+                path: "images/snake2/snake2.png"
             },
 
         ]
@@ -39,15 +39,11 @@ export const projects =
         description: "Ein Taschenrechner der auch mit Kommazahlen rechnen kann.",
         photos: [
             {
-                path: "example"
+                path: "images/calculator/calc0.png"
             },
             {
-                path: "example"
+                path: "images/calculator/calc1.png"
             },
-            {
-                path: "example"
-            },
-
         ]
     },
     {
@@ -56,13 +52,13 @@ export const projects =
         description: "Ein Datenbank über Hunde mit selbst gesammelten Informationen.",
         photos: [
             {
-                path: "example"
+                path: "images/dogs/dog0.png"
             },
             {
-                path: "example"
+                path: "images/dogs/dog1.png"
             },
             {
-                path: "example"
+                path: "images/dogs/dog2.png"
             },
 
         ]
@@ -73,13 +69,16 @@ export const projects =
         description: "Ein soziales Netzwerk für das größte Nagetier der Erde.",
         photos: [
             {
-                path: "example"
+                path: "images/capybook/capy0.png"
             },
             {
-                path: "example"
+                path: "images/capybook/capy1.png"
             },
             {
-                path: "example"
+                path: "images/capybook/capy2.png"
+            },
+            {
+                path: "images/capybook/capy3.png"
             },
 
         ]
@@ -108,32 +107,20 @@ export const projects =
         name: "Diese Website",
         category: "Angular",
         description: "wurde mit Angular gebaut",
-        photos: [
-            {
-                path: "example"
-            },
-            {
-                path: "example"
-            },
-            {
-                path: "example"
-            },
-
-        ]
     },
     {
         name: "Hard Hit",
         category: "Vanilla JS",
-        description: "Die Website für mein Metal-Fanzine.",
+        description: "Die Website für mein Metal-Fanzine. Slidshow für die Bildergalerie. Ein Verzeichnis bisher gesehener Bands mit Suchfunktion.",
         photos: [
             {
-                path: "example"
+                path: "images/HHM/HHM0.png"
             },
             {
-                path: "example"
+                path: "images/HHM/HHM1.png"
             },
             {
-                path: "example"
+                path: "images/HHM/HHM2.png"
             },
 
         ]
