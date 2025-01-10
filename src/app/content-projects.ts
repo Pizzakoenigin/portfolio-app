@@ -5,13 +5,13 @@ export const projects =
         description: "Mit der browser basierten 2D Game-Engine Construct 3 habe ich meine Bachelorarbeit erstellt. Sie wurde mit 1,0 bewertet.",
         photos: [
             {
-                path: "example"
+                path: "images/mexican_runner/mockup_mexican_runner0.png"
             },
             {
-                path: "example"
+                path: "images/mexican_runner/mockup_mexican_runner1.png"
             },
             {
-                path: "example"
+                path: "images/mexican_runner/mockup_mexican_runner2.png"
             },
 
         ]
@@ -85,25 +85,28 @@ export const projects =
         ]
     },
     {
-        name: "Games",
+        name: "Spiele Datenbank",
         category: "Angular",
-        description: "Eine Datenbank über Videospiele. Die Spielinformationen werden über die API von RAWG.io abgerufen. Einige UI-Elemente stammen von der Material Google Datenbank.",
+        description: "Eine Datenbank über Videospiele. Die Spielinformationen werden über die API von RAWG.io abgerufen. Die Spiele werden nach Beliebtheit sortiert. Der Klick auf ein Spiel leitet zur Detailansicht. Dort kann sich der Nutzer weitere Informationen wie zum Beispiel Errungenschaften anzeigen lassen. Von der Detailseite aus kann er sich weitere Spiele des Entwicklers oder Publishers anzeigen lassen. Außerdem ist es möglich nach Spielen zu suchen. Einige UI-Elemente stammen von der Material Google Datenbank.",
         photos: [
             {
-                path: "example"
+                path: "images/games/image001.png",
+                description: "Startseite"
             },
             {
-                path: "example"
+                path: "images/games/image002.png",
+                description: "Detailseite"
             },
             {
-                path: "example"
+                path: "images/games/image003.png",
+                description: "Suchfunktion"
             },
 
         ]
     },
     {
         name: "Diese Website",
-        category: "",
+        category: "Angular",
         description: "wurde mit Angular gebaut",
         photos: [
             {

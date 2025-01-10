@@ -1,9 +1,16 @@
 <h2>Portfolio</h2>
 <div>
-    <div *ngFor="let project of projects">
-        <h3>{{project.name}}</h3>
+    <div *ngFor="let category of sortedCategories()">
+        <h3>{{category}}</h3>
+    <div *ngFor="let project of getProjectsByCategory(category)">
+        <h4>{{project.name}}</h4>
         <p>{{project.description}}</p>
+        <div *ngFor="let photo of project.photos">
+            <img [src]="photo.path" alt="{{project.name}}">
+        </div>
+    </div>        
     </div>
+
 </div>
 
 
