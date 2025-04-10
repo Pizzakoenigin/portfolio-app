@@ -32,6 +32,21 @@ export const projects =
             },
 
         ]
+    }, {
+        name: "Black Jack",
+        category: "Games",
+        description: "Eine Black Jack Variante im Browser. Mehrere Spieler können gleichzeitig am selben Bildschrim gegeneinander spielen.",
+        photos: [
+            {
+                path: "images/black_jack/blackj0.png"
+            },
+            {
+                path: "images/black_jack/blackj1.png"
+            },
+            {
+                path: "images/black_jack/blackj2.png"
+            }
+        ]
     },
     {
         name: "Taschenrechner",

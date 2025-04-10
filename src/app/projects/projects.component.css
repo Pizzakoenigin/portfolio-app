@@ -1,0 +1,10 @@
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.project {
+    margin-bottom: 4em;
+}
