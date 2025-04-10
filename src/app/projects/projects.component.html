@@ -6,7 +6,7 @@
             <div *ngFor="let project of getProjectsByCategory(category)" class="project">
                 <h4>{{project.name}}</h4>
                 <div class="photos">
-                    <div *ngFor="let photo of project.photos">
+                    <div *ngFor="let photo of project.photos" class="photo">
                         <img [src]="photo.path" alt="{{project.name}}">
                     </div>
                 </div>

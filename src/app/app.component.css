@@ -1,5 +1,23 @@
+
+
+.header {
+    background-color: var(--nav-background-color); 
+    /* padding: 1em 5em; */
+}
+
 h1 {
     text-align: center;
+    margin: 0;
+    padding: 0.2em 0;
+}
+
+.navBar {
+   background-color: var(--nav-navbar-color);
+   padding: 5px 10%;
+}
+
+ul {
+    margin: 0;
 }
 
 .navBar ul {
@@ -7,8 +25,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    
 
     li a{
-        text-decoration: none;
+       
     }
 }

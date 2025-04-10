@@ -32,7 +32,22 @@ export const projects =
             },
 
         ]
-    }, {
+    },
+    {
+        name: "Frogame",
+        category: "Games",
+        description: ` Im Wintersemester 2019/2020 studierte ich für ein Erasmussemester Game and App Development an der IADE Lissabon. Gemeinsam mit einem Kommilitonen entwickelte ich ein PC Spiel. Dieses wurde mit der Lua Scripting Language und dem Löve 2D Framework programmiert. Frogame ist das Abschlussprojekt des Semesters.
+Unter diesem <a href="https://franziskadillinger.itch.io/frogame">Link</a>  kann das Spiel gedownloaded werden. `,
+        photos: [
+            {
+                path: "images/frogame/frogame0.png"
+            },
+            {
+                path: "images/frogame/frogame1.png"
+            },
+        ]
+    },
+    {
         name: "Black Jack",
         category: "Games",
         description: "Eine Black Jack Variante im Browser. Mehrere Spieler können gleichzeitig am selben Bildschrim gegeneinander spielen.",
