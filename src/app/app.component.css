@@ -6,14 +6,12 @@
 }
 
 h1 {
-    text-align: center;
-    margin: 0;
-    padding: 0.2em 0;
+
 }
 
 .navBar {
    background-color: var(--nav-navbar-color);
-   padding: 5px 10%;
+   padding: 5px 15%;
 }
 
 ul {
@@ -23,11 +21,13 @@ ul {
 .navBar ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 2em;
     padding: 0;
     
 
-    li a{
-       
+    nav li {
+        font-family: 'Rubik', sans-serif;
+
     }
 }

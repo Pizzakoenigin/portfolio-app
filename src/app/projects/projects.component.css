@@ -1,9 +1,9 @@
 .slideshow {
     height: 100vh;
-	width: 100vw;
-	background-color: #181818;
-	overflow: hidden;
-	display: none;
+    width: 100vw;
+    background-color: #181818;
+    overflow: hidden;
+    display: none;
 }
 
 .photos {
@@ -24,4 +24,32 @@
 
 .project {
     margin-bottom: 4em;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #F25C54;
+    /* border-bottom: 2px solid #F25C54; */
+}
+
+footer {
+    text-align: center;
+}
+
+.backtotop {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.backtotop:hover {
+    background-color: #F25C54;
+    color: white !important;
+    border-bottom: none;    
 }

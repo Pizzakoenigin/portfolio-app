@@ -7,5 +7,6 @@ export const routes: Routes = [
     {path: 'main', component: MainComponent },
     {path: 'projekte', component: ProjectsComponent},
     {path: 'lebenslauf', component: CvComponent},
-    {path: '', redirectTo: '/main', pathMatch: 'full'}
+    // {path: '', redirectTo: '/main', pathMatch: 'full'}
+    {path: '**', redirectTo: '/main', pathMatch: 'full'}
 ];
