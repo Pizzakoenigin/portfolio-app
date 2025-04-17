@@ -1,8 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-
 :root {
     --nav-background-color: rgb(244, 244, 244);
-    /* --nav-navbar-color: rgba(153, 21, 21, 0.704); */
+
     --nav-navbar-color: #EBEBEB
 
 }
@@ -11,20 +9,17 @@ html {
     scroll-behavior: smooth;
 }
 
-html,
+/* html,
 body {
     height: 100%;
-}
+} */
 
 body {
     margin: 0;
-    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+
     font-family: 'Sofia sans', sans-serif;
 }
 
-img {
-    /* max-width: 20vw; */
-}
 
 h1 {
     font-size: 2em;
@@ -33,7 +28,7 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 0.4em 0;
-	/* font-size: 40px; */
+
 }
 
 h2 {
@@ -56,26 +51,6 @@ h4 {
 p, li {
     font-size: 0.8em;
     line-height: 1.5em;
-}
-
-a {
-     text-decoration: none;
-}
-a:hover {
-    /* color: rgb(144, 198, 36);
-    text-decoration: underline; */
-    color: #F25C54 !important;
-	border-bottom: 2px solid #F25C54;
-}
-
-
-a:active {
-    color: #F25C54 !important;
-	border-bottom: 2px solid #F25C54;
-}
-
-a:visited {
-    color: black;
 }
 
 .container {

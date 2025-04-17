@@ -1,10 +1,11 @@
 import { Component, ElementRef, OnInit, viewChild } from '@angular/core';
 import { projects } from '../content-projects';
 import { CommonModule } from '@angular/common';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-projects',
-  imports: [CommonModule],
+  imports: [CommonModule, HeaderComponent],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })
