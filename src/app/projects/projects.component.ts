@@ -5,7 +5,7 @@ import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-projects',
-  imports: [CommonModule, HeaderComponent],
+  imports: [CommonModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })
