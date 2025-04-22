@@ -1,12 +1,16 @@
-export const cv = 
+export const cv =
 {
   "Persoenliche_Daten": {
     "Anschrift": "Hegelstraße 10, 90409 Nürnberg",
     "Geburtsdatum": "02.05.1995",
     "Nationalität": "Deutsch",
     "Email": "Franziska.Roder[at]gmx.de",
-    "Github": "https://github.com/Pizzakoenigin"
   },
+
+  "Github": {
+    "link": "https://github.com/Pizzakoenigin"
+  },
+
   "Faehigkeiten": [
     "Typescript",
     "Angular",

@@ -28,16 +28,17 @@ h1 {
         }
     }
 
-    a {
-        text-decoration: none;
-        color: black
-    }
+
+}
+
+a {
+    text-decoration: none;
+    color: black
 }
 
 
+
 a:hover {
-    /* color: rgb(144, 198, 36);
-   text-decoration: underline; */
     color: #F25C54 !important;
     border-bottom: 2px solid #F25C54;
 }

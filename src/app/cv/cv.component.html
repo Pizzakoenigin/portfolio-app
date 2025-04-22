@@ -6,7 +6,13 @@
             <h3>Persönliche Daten</h3>
             <ul *ngFor="let key of (cv.Persoenliche_Daten | keyvalue)">
                 <li>{{ key.key }}: {{ key.value }}</li>
+
             </ul>
+            <ul>
+                <li><a href="{{cv.Github.link}}" style="color: #F25C54 !important;">Github</a></li>
+            </ul>
+
+
         </section>
 
         <section>
@@ -15,7 +21,7 @@
                 <li>{{ skill }}</li>
             </ul>
         </section>
-        <a href=""></a>
+
 
         <section>
             <h3>Jobs</h3>
@@ -37,8 +43,8 @@
             <ul>
                 <li *ngFor="let course of cv.Weiterbildung">
                     {{course.Kurs}} <br>
-                    <span *ngIf="course.Datum">{{course.Datum}}</span>
-                    <span *ngIf="course.Startdatum">{{course.Startdatum}} - {{course.Enddatum}}</span>
+                    <span *ngIf="course.Datum">{{course.Datum}} </span>
+                    <span *ngIf="course.Startdatum">{{course.Startdatum}} - {{course.Enddatum}} </span>
                     <span>{{course.Einrichtung}}</span>
                 </li>
             </ul>
@@ -49,7 +55,7 @@
             <h3>Studium</h3>
             <ul>
                 <li *ngFor="let study of cv.Studium">
-                    <span>{{study.Startdatum}} - {{study.Enddatum}}: {{study.Abschluss}}</span> <br>  
+                    <span>{{study.Startdatum}} - {{study.Enddatum}}: {{study.Abschluss}}</span> <br>
                     <span>{{study.Einrichtung}}</span>
 
                 </li>

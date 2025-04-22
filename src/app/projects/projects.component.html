@@ -7,12 +7,14 @@
             <h3>{{category}}</h3>
             <div *ngFor="let project of getProjectsByCategory(category)" class="project">
                 <h4>{{project.name}}</h4>
+                <p>{{project.description}}</p>
+                <a href="{{project.link}}">Link</a>                
                 <div class="photos">
                     <div *ngFor="let photo of project.photos" class="photo">
                         <img [src]="photo.path" alt="{{project.name}}">
                     </div>
                 </div>
-                <p>{{project.description}}</p>
+
             </div>
         </div>
     </div>
